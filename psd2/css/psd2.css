@@ -1,0 +1,300 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 943px;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+/* ************************************************************************************************************** */
+/* *****************************Banner Statrts here ************************************************************* */
+/* ************************************************************************************************************** */
+
+.logo{
+	float: left;
+}
+
+.nav li {
+	float: left;
+	padding: 0 20px;
+}
+
+.nav {
+	float: right;
+}
+
+.nav a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #fff;
+}
+
+.banner-rel {
+	position: relative;
+}
+
+.header{
+	position: absolute;
+	top: 44px;
+	left: calc(50% - 471px);
+}
+
+.banner-text h1{
+	font-size: 40px;
+	padding-bottom: 26px;
+	color: #fff;
+}
+
+.banner-text h2{
+	font-size: 75px;
+	padding-bottom: 60px;
+	color: #fff;
+}
+
+.banner-text a{
+	background-color: #fed136;
+	padding: 25px 52px;
+	border-radius: 5px;
+	color: #fff;
+	}
+
+.banner-text {
+	text-align: center;
+    position: absolute;
+    top: 277px;
+    left: calc(50% - 325px);
+}
+
+/* ************************************************************************************************************** */
+/* *****************************Banner Ends here ************************************************************* */
+/* ************************************************************************************************************** */
+
+
+/* ************************************************************************************************************** */
+/* *****************************Services Starts here ************************************************************* */
+/* ************************************************************************************************************** */
+
+.services{
+	text-align: center;
+	padding-top: 122px;
+	padding-bottom: 77px;
+}
+
+.services-head h2{
+	font-size: 40px;
+	color: #222;
+}
+
+.services-head h4{
+	font-size: 16px;
+	color: #777;
+}
+
+.img-info h2{
+	font-size: 18px;
+	color: #222;
+	padding-top: 25px;
+	padding-bottom: 21px;
+}
+
+.img-info p{
+	font-size: 14px;
+	color: #777;
+	padding: 0 36px;
+}
+
+.img-info{
+	float: left;
+	width: 33.33%;
+}
+
+.services-info{
+	padding-top: 77px;
+	padding-bottom: 118px;
+}
+
+
+/* ************************************************************************************************************** */
+/* *****************************Services Ends here ************************************************************* */
+/* ************************************************************************************************************** */
+
+
+
+/* ************************************************************************************************************** */
+/* *****************************Portfolio Starts here ************************************************************* */
+/* ************************************************************************************************************** */
+
+.portfolio {
+	background-color: #f7f7f7;
+	text-align: center;
+}
+
+.port-heading {
+	text-align: center;
+	padding-top: 121px;
+	padding-bottom: 80px;
+}
+
+.port-heading h3{
+	font-size: 40px;
+	color: #222;
+}
+
+.port-heading p{
+	font-size: 16px;
+	color: #777;
+}
+
+.gal-img1 {
+	width: 290px;
+	float: left;
+}
+
+.gal-spacing{
+	margin: 0 35px;
+}
+
+.gal-img-info{
+	background-color: #fff;
+}
+
+.gal-img-info h3{
+	font-size: 18px;
+	color: #333;
+	padding-top: 29px;
+}
+
+.gal-img-info p{
+	font-size: 14px;
+	color: #737373;
+	padding-bottom: 27px;
+}
+
+.gal-two {
+	padding-top:49px;
+	padding-bottom:118px;
+}
+
+
+
+/* ************************************************************************************************************** */
+/* *****************************Portfolio Ends here ************************************************************* */
+/* ************************************************************************************************************** */
+
+
+/* ************************************************************************************************************** */
+/* *****************************About US Starts here ************************************************************* */
+/* ************************************************************************************************************** */
+
+
+.about-us {
+	text-align: center;
+}
+
+.about-us-head h3{
+	font-size: 40px;
+	color: #000;
+}
+
+.about-us-head p{
+	font-size: 16px;
+	color: #777;
+}
+
+.about-us-head{
+	padding-top: 121px;
+	padding-bottom: 82px;
+}
+
+.about-us-img-one{
+	padding-left: 37px;
+}
+
+.about-us-img-one-text p {
+	text-align: right;
+	padding: 0px 2px;
+}
+
+.about-us-img-one-text {
+	float: left;
+	width: 304px;
+}
+
+.about-us-img-one {
+	float: left;
+	padding-left: 41px;
+	padding-bottom: 93px;
+}
+
+.about-us-img-one img{
+	border-radius: 50%;
+	width: 169px;
+	height: 169px;
+	border: 7px solid #f1f1f1;
+}
+
+.about-us-img-one-text h3{
+	text-align: right;
+}
+/* ================================================================ */
+
+.about-us-img-two{
+	padding-left: 37px;
+	padding-bottom: 93px;
+}
+
+.about-us-img-two-text p {
+	text-align: left;
+	padding: 0px 9px;
+}
+
+.about-us-img-two-text {
+	float: right;
+	width: 304px;
+}
+
+.about-us-img-two {
+	float: right;
+	margin-right: 38px;
+}
+
+.about-us-img-two img{
+	border-radius: 50%;
+	width: 169px;
+	height: 169px;
+	border: 7px solid #f1f1f1;
+}
+
+.about-us-img-two-text h3{
+	text-align: left;
+}
+
+.our-story{
+	border-radius: 50%;
+	width: 169px;
+	height: 169px;
+	border: 7px solid #f1f1f1;
+	background-color: #fed136;
+	margin: 0 auto;
+}
+
+.our-story h3 {
+	font-size: 18px;
+	color: #fff;
+	padding: 0 25px;
+	padding-top: 40px;
+}
+
+
+
+/* ************************************************************************************************************** */
+/* *****************************About US Ends here ************************************************************* */
+/* ************************************************************************************************************** */
