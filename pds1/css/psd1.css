@@ -6,7 +6,7 @@
 }
 
 .container{
-	width: 1015px;
+	max-width: 1015px;
 	margin: 0 auto;
 }
 
@@ -249,3 +249,68 @@
 /* ************************************************************************************************************ */
 /* ********************** Footer section Ends Here ****************************************************************** */
 /* ************************************************************************************************************ */
+
+
+/*********************************************************************/
+/***********  Media Queries Start*************************************/
+/*********************************************************************/
+
+@media(max-width: 1200px){
+	.banner-heading h2 {
+		padding-left: 25px;
+	}
+	
+	.banner-heading a {
+		margin-left: 0px;
+	}
+}
+
+@media(max-width: 991px){
+	.header-heading {
+		float: none;
+		text-align: center;
+	}
+	
+	.header-nav {
+		float: none;
+		padding: 0px 0 33px 90px;
+	}
+	
+	.banner-heading {
+		top: 38px;
+		left: 0px;
+	}
+	
+	.dhavam-img {
+		padding-left: 220px;
+	}
+	
+	.dhavan-para p {
+		padding: 0 100px;
+	}
+	
+	.map-form {
+		width: 300px;
+		height: 300px;
+		top: calc(50% - 150px);
+		left: calc(50% - 150px);
+	}
+	
+	.name-field {
+		width: 160px;
+		margin-top: 25px;
+	}
+	
+	.email-field {
+		width: 160px;
+	}
+	
+	.message-field {
+		width: 160px;
+	}
+	
+}
+
+@media(max-width: 767px){
+	
+}
