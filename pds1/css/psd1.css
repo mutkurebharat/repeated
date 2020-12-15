@@ -312,5 +312,19 @@
 }
 
 @media(max-width: 767px){
+	.header-nav li {
+		padding: 0 8px;
+	}
 	
+	.header-nav {
+		padding: 0px 0 33px 45px;
+	}
+	
+	.banner-heading h2 {
+		font-size: 26px;
+	}
+	
+	.banner-heading h2 {
+		padding-bottom: 24px;
+	}
 }
