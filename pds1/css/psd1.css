@@ -327,4 +327,86 @@
 	.banner-heading h2 {
 		padding-bottom: 24px;
 	}
+	
+	.img-section h3 {
+		padding: 0 0px;
+	}
+	
+	.img-section p {
+		font-size: 18px;
+		padding: 0 50px;
+	}
+	
+	.images-section {
+		padding-bottom: 25px;
+		padding-top: 25px;
+	}
+	
+	.dhavam-img {
+		padding-left: 90px;
+	}
+	
+	.map-form {
+		width: 250px;
+		height: 250px;
+		top: calc(50% - 125px);
+		left: calc(50% - 125px);
+	}
+	
+	.message-field {
+		margin-bottom: 3px;
+	}
+	
+	.map-form img{
+		width: 50px;
+	}
+}
+
+@media(max-width: 600px){
+	.header-heading {
+		float: left;
+	}
+	
+	.header-heading h1 {
+		font-size: 20px;
+	}
+	
+	.header-nav {
+		float: right;
+	}
+	
+	.header-nav li {
+		float: none;
+	}
+	
+	.header-nav {
+		padding: 15px 0 0px 0px;
+	}
+	
+	.banner-heading h2 {
+		font-size: 20px;
+	}
+	
+	.middle-img {
+		padding: 0 60px;
+	}
+	
+	.dhavam-img {
+		padding-left: 40px;
+	}
+	
+	.map-form {
+		width: 200px;
+		height: 200px;
+		top: calc(50% - 100px);
+		left: calc(50% - 100px);
+	}
+	
+	.message-field {
+		height: 30px;
+	}
+	
+	.banner-heading a {
+		padding: 5px 30px;
+	}
 }
